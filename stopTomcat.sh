@@ -1,0 +1,1 @@
+sudo sh /work/WebApplication/tomcat/bin/shutdown.sh

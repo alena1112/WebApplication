@@ -1,0 +1,26 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0"
+         metadata-complete="true">
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>StartPageServlet</servlet-name>
+        <servlet-class>servlets.StartPageServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletForFrames</servlet-name>
+        <servlet-class>servlets.ServletForFrames</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StartPageServlet</servlet-name>
+        <url-pattern>/start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletForFrames</servlet-name>
+        <url-pattern>/servletForFrames</url-pattern>
+    </servlet-mapping>
+</web-app>
